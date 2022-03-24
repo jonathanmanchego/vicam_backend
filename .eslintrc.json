@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "endOfLine": "auto",
+        "tabWidth": 2,
+        "bracketSpacing": true,
+        "semi": "error",
+        "arrowParens": "avoid"
+    }
+}
