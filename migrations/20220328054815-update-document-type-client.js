@@ -26,8 +26,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.removeColumn('Clients', 'document_type', {
-      transaction,
-    });
+    await queryInterface.removeColumn('Clients', 'document_type');
   },
 };
